@@ -1,1 +1,2 @@
-# LED-Interrupt-Timer
+# LED Interrupt Timer
+ARM Cortex-M3 project built using Keil µVision and written in ARMv7 Assembly for the NXP LPC1768 microcontroller. This project uses GPIO interrupts, pseudo-random number generation via an LFSR, and LED display logic to simulate a reflex-timing test. It configures falling-edge GPIO interrupts, initializes NVIC registers, and displays countdown values using both polling and interrupt-driven routines.
